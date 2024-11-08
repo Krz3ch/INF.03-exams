@@ -1,0 +1,66 @@
+* {
+    font-family: Cambria;
+    text-align: center;
+}
+
+header,
+footer {
+    background-color: rgb(120, 0, 46);
+    color: white;
+    padding: 5px;
+    font-size: 150%;
+}
+
+nav {
+    background-color: rgb(173, 20, 87);
+    text-align: left;
+}
+
+#lewy {
+    background-color: snow;
+    color: olivedrab;
+    width: 60%;
+    height: 322px;
+    text-align: left;
+}
+
+form {
+    text-align: left;
+}
+
+main {
+    display: flex;
+}
+
+#prawy {
+    background-color: rgb(173, 20, 87);
+    width: 40%;
+    height: 322px;
+}
+
+#prawy > img {
+    margin: 40px;
+    padding: 10px;
+}
+
+#prawy > img:hover {
+    border: yellowgreen dotted 1px;
+}
+
+a {
+    padding: 0 50px;
+    color: yellowgreen;
+}
+
+table,
+td {
+    border: solid 1px olivedrab;
+}
+
+table {
+    width: 90%;
+}
+
+body {
+    margin: 0;
+}
