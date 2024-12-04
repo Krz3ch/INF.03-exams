@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Salon kosmetyczny</title>
+        <link rel="stylesheet" href="styl7.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <section id="left_top">
+            <h2>Nasza oferta</h2>
+            <ol>
+                <li>
+                    <a href="twarz.html">Oczyszczanie twarzy</a>
+                    <ul>
+                        <li>Peeling</li>
+                        <li>Maska</li>
+                    </ul>
+                </li>
+                <li>Masaż</li>
+                <li>Makijaż</li>
+            </ol>
+            <a id="odsylacz" href="index.html">Strona główna</a>
+        </section>
+
+        <section id="right_top">
+            <h1>Usługi kosmetyczne</h1>
+        </section>
+
+        <section id="right_bot">
+            <h3>Kalkulator ceny wizyty</h3>
+            <form>
+                <input type="checkbox" id="peeling" />Peeling <br />
+                <input type="checkbox" id="maska" />Maska <br />
+                <input type="checkbox" id="masaz_twarzy" />Masaż twarzy
+                <br />
+                <input type="checkbox" id="makijaz" />Makijaż <br />
+                <button type="button" onclick="obliczanie()">
+                    Oblicz cenę
+                </button>
+            </form>
+            <p id="wynik"></p>
+        </section>
+
+        <section id="left_bot">
+            <img src="obraz1.jpg" alt="Personel" />
+        </section>
+        <footer>
+            <p>Autor: Krzysztof Gadzina</p>
+        </footer>
+    </body>
+</html>
