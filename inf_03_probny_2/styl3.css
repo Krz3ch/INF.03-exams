@@ -1,0 +1,55 @@
+* {
+    font-family: Verdana;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #29434e;
+    color: white;
+    height: 70px;
+}
+#baner_lewy {
+    text-align: center;
+    width: 70%;
+    height: 70px;
+    float: left;
+}
+
+#baner_prawy {
+    width: 30%;
+    height: 70px;
+    float: right;
+}
+
+#polecane,
+#fantastyczne {
+    background-color: #b0bec5;
+    height: 320px;
+    overflow: scroll;
+}
+
+footer {
+    background-color: #29434e;
+    color: white;
+}
+
+#blok_filmu {
+    padding: 5px;
+    width: 226px;
+    height: 280px;
+    float: left;
+}
+
+h3 {
+    background-color: #546e7a;
+    color: white;
+    margin: 0;
+}
+
+h4 {
+    text-align: center;
+    margin: 0;
+}
