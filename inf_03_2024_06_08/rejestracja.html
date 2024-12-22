@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sklep - rejestracja</title>
+        <link rel="stylesheet" href="styl.css" />
+    </head>
+    <body>
+        <script src="main.js"></script>
+        <section id="boczny">
+            <img src="obraz.PNG" alt="promocje" />
+            <h2>Sprawdź promocje</h2>
+            <table>
+                <tr>
+                    <th>co?</th>
+                    <th>ile taniej?</th>
+                </tr>
+                <tr>
+                    <td>ubrania</td>
+                    <td>15%</td>
+                </tr>
+                <tr>
+                    <td>buty</td>
+                    <td>25%</td>
+                </tr>
+            </table>
+        </section>
+        <header>
+            <h1>Zarejestruj się w sklepie</h1>
+        </header>
+        <main>
+            <button id="klient" onclick="Switching('blok1')">Klient</button>
+            <button id="adres" onclick="Switching('blok2')">Adres</button>
+            <button id="kontakt" onclick="Switching('blok3')">Kontakt</button>
+
+            <div id="blok1">
+                <p>Imię</p>
+                <input id="imie" type="text" placeholder="Wpisz dane..." />
+
+                <p>Nazwisko</p>
+                <input id="nazwisko" type="text" />
+
+                <p>Data urodzenia</p>
+                <input id="data_ur" type="date" />
+            </div>
+
+            <div id="blok2">
+                <p>Ulica</p>
+                <input id="ulica" type="text" />
+
+                <p>Numer</p>
+                <input id="numer" type="number" />
+
+                <p>Miasto</p>
+                <input id="miasto" type="text" />
+            </div>
+
+            <div id="blok3">
+                <p>Numer komórkowy</p>
+                <input id="nr_tel" type="tel" /><br />
+
+                <input id="rodo" type="checkbox" />Akceptuję RODO <br />
+
+                <button type="submit" onclick="Zatwierdz()">
+                    Zatwierdź dane
+                </button>
+            </div>
+        </main>
+        <section id="pasek">
+            <section id="pasek_postepu"></section>
+        </section>
+        <footer>
+            <h4>Rejestrację do sklepu wykonał: Krzysztof Gadzina</h4>
+        </footer>
+    </body>
+</html>

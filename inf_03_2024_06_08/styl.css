@@ -1,0 +1,85 @@
+* {
+    font-family: Cambria;
+}
+
+body {
+    background-color: linen;
+    margin: 0;
+}
+
+#boczny,
+header,
+footer {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+
+#boczny {
+    width: 25%;
+    height: 510px;
+    margin: 0 1%;
+    box-shadow: 4px 4px 5px dimgray;
+    float: left;
+}
+
+header {
+    width: 73%;
+    height: 80px;
+    float: left;
+}
+
+main {
+    width: 73%;
+    height: 400px;
+    float: left;
+}
+
+footer {
+    clear: both;
+}
+
+button {
+    background-color: steelblue;
+    color: white;
+    width: 20%;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 130%;
+    border: 0;
+}
+
+button:hover {
+    background-color: navy;
+}
+
+#blok1,
+#blok2,
+#blok3 {
+    background-color: lightblue;
+    margin-right: 80px;
+    padding: 10px;
+}
+
+#blok2,
+#blok3 {
+    display: none;
+}
+
+#pasek {
+    background-color: lightgrey;
+    width: 73%;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#pasek_postepu {
+    background-color: navy;
+    width: 4%;
+    height: 30px;
+}
+
+table {
+    width: 100%;
+    border: dotted 1px navy;
+}
