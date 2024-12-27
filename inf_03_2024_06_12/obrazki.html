@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Efekty obrazu</title>
+        <link rel="stylesheet" href="styl.css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <h2>Efekty na obrazach</h2>
+        </header>
+        <main>
+            <section id="blok_1">
+                <img
+                    src="pszczola.jpg"
+                    alt="pszczoła na fioletowym kwiatku"
+                /><br />
+                <input
+                    type="radio"
+                    name="opcje_1"
+                    value="blur(6px)"
+                />Blur<br />
+
+                <input
+                    type="radio"
+                    name="opcje_1"
+                    value="sepia(100%)"
+                />Sepia<br />
+
+                <input
+                    type="radio"
+                    name="opcje_1"
+                    value="invert(100%)"
+                />Negatyw<br />
+                <button id="zastosuj_1" onclick="Transform_1()">
+                    Zastosuj
+                </button>
+            </section>
+            <section id="blok_2">
+                <img src="pomarancza.jpg" alt="drzewo pomarańczy" /><br />
+                <button id="kolorowy_btn" onclick="kolorowy()">Kolorowy</button>
+                <button id="czarnobiel_btn" onclick="czarnobiel()">
+                    Czarno-biały
+                </button>
+            </section>
+            <section id="blok_3">
+                <img src="owoce.jpg" alt="Kosz pełen owoców" /><br />
+                <input type="range" id="suwak_3" min="0" max="100" /><br />
+                <button id="zastosuj_3" onclick="Zast3()">Zastosuj</button>
+            </section>
+            <section id="blok_4">
+                <img src="zolw.jpg" alt="Żółw w wodzie" />
+                <input type="range" id="suwak_4" min="0" max="250" /><br />
+                <button id="zastosuj_4" onclick="Zast4()">Zastosuj</button>
+            </section>
+        </main>
+        <footer>
+            <p>
+                <a href="http://www.css.com/" target="_blank"
+                    >Zobacz inne efekty obrazu</a
+                >
+            </p>
+            <p>Stronę wykonał: Krzysztof Gadzina</p>
+        </footer>
+    </body>
+</html>
