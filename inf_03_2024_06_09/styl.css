@@ -1,0 +1,85 @@
+* {
+    font-family: Georgia;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+header,
+footer {
+    background-color: Maroon;
+    text-align: center;
+    padding: 2px;
+}
+
+main {
+    display: flex;
+}
+
+#main_l,
+#main_c,
+#main_r {
+    background-color: lightsalmon;
+    height: 527px;
+}
+
+#main_l,
+#main_r {
+    width: 15%;
+}
+
+#main_c {
+    width: 70%;
+}
+
+nav {
+    background-color: maroon;
+    height: 70px;
+}
+
+button {
+    background-color: lightsalmon;
+    color: maroon;
+    border: none;
+    font-size: 400%;
+    display: block;
+    margin: auto;
+    padding-top: 210px;
+}
+
+@keyframes miniAnimacja {
+    from {
+        padding-left: 50px;
+    }
+    to {
+        padding-left: 0px;
+    }
+}
+
+nav img {
+    height: 70px;
+    animation-name: miniAnimacja;
+    animation-duration: 4s;
+}
+
+#main_c img {
+    display: block;
+    margin: auto;
+    padding-top: 45px;
+}
+
+@keyframes mainAnimacja {
+    from {
+        scale: 100%;
+    }
+    to {
+        scale: 120%;
+    }
+}
+
+#main_c img:hover {
+    animation-name: mainAnimacja;
+    animation-duration: 5s;
+}

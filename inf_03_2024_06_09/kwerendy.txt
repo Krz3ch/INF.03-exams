@@ -1,0 +1,4 @@
+1. SELECT miejsce, liczbaDni FROM wycieczki WHERE cena < 1000;
+2. SELECT AVG(cena) AS sredniaCena, liczbaDni FROM wycieczki GROUP BY liczbaDni;
+3. SELECT miejsce, nazwa FROM wycieczki JOIN zdjecia ON zdjecia.Wycieczki_id = wycieczki.id;
+4. CREATE USER 'Ewa'@'localhost' IDENTIFIED BY 'Ewa!Ewa';
